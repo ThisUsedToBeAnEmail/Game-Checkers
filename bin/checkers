@@ -1,0 +1,11 @@
+#!perl
+
+use 5.010;
+use strict;
+use warnings;
+
+use Game::Checkers::Terminal;
+
+our $VERSION = '0.04';
+
+exit Game::Checkers::Terminal->run(@ARGV);
